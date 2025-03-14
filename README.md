@@ -44,7 +44,5 @@ be reported.
 
 
 <h1>Задание</h1>
-```
-sudo yum install wget
-```
 
+'''sudo yum install wget'''
