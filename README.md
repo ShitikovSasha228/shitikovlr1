@@ -45,4 +45,14 @@ be reported.
 
 <h1>Задание</h1>
 
-1. В начале была установлена <code>sudo yum install wget </code> 
+1. В начале была установлена <code>sudo yum install wget </code>  
+   
+![image](https://github.com/user-attachments/assets/1e9b133f-5c05-4608-884c-871d5b4f0611)
+
+2. После чего устанавливаем пакет curl
+
+![image](https://github.com/user-attachments/assets/7e277884-f6e8-4efd-834e-0a9dd8435f1a)
+
+Командой <code>sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo</code>
+
+![image](https://github.com/user-attachments/assets/6c347c14-8ee4-4a21-9828-825f13f3fe46)
