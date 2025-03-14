@@ -36,9 +36,13 @@ be reported.
 ![image](https://github.com/user-attachments/assets/305da484-1310-4f5a-bcbd-903a42eecad1)
 
 
-6) И пишем под ним своё имя пользователя как в примере (отступы делаем при помощи клавиши TAB)
+6) Нажмимаем клавишу Insert и пишем под ним своё имя пользователя как в примере (отступы делаем при помощи клавиши TAB)
 
 ![image](https://github.com/user-attachments/assets/ceb7df46-f910-4263-b746-d83909318503)
    
 И всё готово
+
+
+<h1>Задание</h1>
+```sudo yum install wget```
 
