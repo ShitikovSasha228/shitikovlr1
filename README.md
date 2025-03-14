@@ -15,11 +15,35 @@ be reported.
 
 ![image](https://github.com/user-attachments/assets/19af23ad-4aa2-47bc-a990-b96315857257)
 
-Для её устранения нужно    
+Для её устранения нужно:    
+
 1) Открыть терминал и ввести туда su root  
+
+![image](https://github.com/user-attachments/assets/6fd4db70-e0a7-4f42-8202-125b9932933b)
+
 2) После ввода пароля вводим visudo  
+
+![image](https://github.com/user-attachments/assets/f5438e07-c903-4367-8721-b368406840a2)
+
+
 3) В появившемся окне нажимаем 3 раза Enter  
+
+![image](https://github.com/user-attachments/assets/644cb765-2f9f-43cc-af5a-3b81f4931a43)
+
+
 4) После появления нового окна нажимаем клавишу Insert  
+
+![image](https://github.com/user-attachments/assets/ceb7df46-f910-4263-b746-d83909318503)
+
+
 5) Листаем файл и находим root  
-6) И пишем под ним своё имя пользователя как в примере (отступы делаем при помощи клавиши TAB)  
+
+![image](https://github.com/user-attachments/assets/87715912-833b-4fe4-a92a-4d7308e294e9)
+
+
+6) И пишем под ним своё имя пользователя как в примере (отступы делаем при помощи клавиши TAB)
+
+![image](https://github.com/user-attachments/assets/dd0157f7-d45a-41ea-bf15-01e99cfeed4c)
+   
+И всё готово
 
