@@ -38,12 +38,11 @@ be reported.
 
 5) Листаем файл и находим root  
 
-![image](https://github.com/user-attachments/assets/305da484-1310-4f5a-bcbd-903a42eecad1)
-
+![image](https://github.com/user-attachments/assets/dd0157f7-d45a-41ea-bf15-01e99cfeed4c)
 
 6) И пишем под ним своё имя пользователя как в примере (отступы делаем при помощи клавиши TAB)
 
-![image](https://github.com/user-attachments/assets/dd0157f7-d45a-41ea-bf15-01e99cfeed4c)
+![image](https://github.com/user-attachments/assets/305da484-1310-4f5a-bcbd-903a42eecad1)
    
 И всё готово
 
