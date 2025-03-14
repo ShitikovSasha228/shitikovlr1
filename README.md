@@ -31,14 +31,10 @@ be reported.
 ![image](https://github.com/user-attachments/assets/644cb765-2f9f-43cc-af5a-3b81f4931a43)
 
 
-4) После появления нового окна нажимаем клавишу Insert  
+5) Листаем файл и находим root 
 
 ![image](https://github.com/user-attachments/assets/305da484-1310-4f5a-bcbd-903a42eecad1)
 
-
-5) Листаем файл и находим root  
-
-![image](https://github.com/user-attachments/assets/dd0157f7-d45a-41ea-bf15-01e99cfeed4c)
 
 6) И пишем под ним своё имя пользователя как в примере (отступы делаем при помощи клавиши TAB)
 
