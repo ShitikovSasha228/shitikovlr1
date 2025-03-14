@@ -10,6 +10,14 @@
 20ГБ памяти виртуальный диск
 
 <h2> is not in the sudoers file. This incident will be reported.</h2>
-В процессе работы была выявленна ошибка 
+В процессе работы была выявленна ошибка shitikovad is not in the sudoers file. This incident will
+be reported.  
 ![image](https://github.com/user-attachments/assets/19af23ad-4aa2-47bc-a990-b96315857257)
+Для её устранения нужно    
+1) Открыть терминал и ввести туда su root  
+2) После ввода пароля вводим visudo  
+3) В появившемся окне нажимаем 3 раза Enter  
+4) После появления нового окна нажимаем клавишу <Insert>  
+5) Листаем файл и находим root  
+6) И пишем под ним своё имя пользователя как в примере (для отступов нажимаем клавишу TAB)  
 
