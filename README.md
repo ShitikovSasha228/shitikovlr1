@@ -1,4 +1,3 @@
-# shitikovlr1
-
-![image](https://github.com/user-attachments/assets/2db4633e-56b6-4374-bcaa-e38856a0132d)
-
+<h1> Шитиков Александр Дмитриевич </h1>
+         <h2> К-ИСП-39-1 </h2>
+    <h3>Лабороторная работа 1</h3>
