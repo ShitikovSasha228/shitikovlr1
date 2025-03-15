@@ -126,10 +126,12 @@ be reported.
 
 ![image](https://github.com/user-attachments/assets/2055ef14-7b00-458f-abfe-110361a9c38c)
 
-20. <code> sudo docker compose up -d </code> запускает в фонойвом режиме 
+20. <code> sudo docker compose up -d </code> запускает в фонойвом режиме
+    
 ![image](https://github.com/user-attachments/assets/f4961eeb-3a32-4016-a005-6e2c9f8e4c92)
 
-21. <code> sudo docker compose stop </code> останавливает без удаления контейнеров
+22. <code> sudo docker compose stop </code> останавливает без удаления контейнеров
+    
 ![image](https://github.com/user-attachments/assets/b113db53-861f-4137-9fbf-1a32bc78fc36)
 
     
@@ -140,7 +142,56 @@ be reported.
 
 ![image](https://github.com/user-attachments/assets/c9b26f9b-e261-4f75-ac49-8a8ab0bbf6c4)
 
-25. 
+25. Клонируем свой репозиторий из GitHab
+
+![image](https://github.com/user-attachments/assets/75938025-b8ec-4ebf-98fc-2c1e50384357)
+
+26. Копируем файл промитеус в /gafana/config/ <code> sudo cp prometheus.yaml /mnt/common_volume/swarm/grafana/config </code>
+
+![image](https://github.com/user-attachments/assets/43e234a3-99a9-4f24-98be-30bd10ac302e)
+
+<h1> Grapha </h1>
+
+Открываем страницу в браузере и вписываем туда 
+**localhost:3000**    
+Логин: admin  
+Пароль: admin  
+![image](https://github.com/user-attachments/assets/7b920513-0466-4aef-964f-91f36a066d55)
+
+Полсле регистрации выбираем DASHBOARDS
+![image](https://github.com/user-attachments/assets/ed3a6600-83ca-491d-8fa8-fd1b85c4325d)
+
+Нажимаем 
+![image](https://github.com/user-attachments/assets/dfc87129-f4ba-46e1-a304-4169b3e29dac)
+
+В Dadta sourse выбираем Prometheus 
+![image](https://github.com/user-attachments/assets/134a6513-4ffc-42b7-a8bc-f67b699cb342)
+
+В этом окне вводим: http://prometheus:9090. И где аутентификация вводим: admin, admin
+
+![image](https://github.com/user-attachments/assets/7af4376c-04a0-41fd-afa2-c980305a2b93)
+
+Затем опять заходим в DASHBOARDS и выбираем Import DashBoard. В строку Load пишем 1860 и нажимаем Load
+
+![image](https://github.com/user-attachments/assets/c6780f80-c3a3-4b19-b0a0-dd7dede88967)
+
+В этом окне выбираем в самом конце выбираем Prometheus 
+
+![image](https://github.com/user-attachments/assets/10ef2b8d-c2f8-4dd0-ad1e-2c0cba2cdfd5)
+
+И наслаждаемся проделанной работой 
+
+![image](https://github.com/user-attachments/assets/2146e185-4c9f-4d30-87ce-4c5f8d92728c)
+
+
+
+
+
+
+
+
+
+
 
 
 
