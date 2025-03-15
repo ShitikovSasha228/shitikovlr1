@@ -84,9 +84,37 @@ be reported.
 
 Успешно
 
-Проверяем какая версия установилась 
+9. Проверяем какая версия установилась при помощи команды <code> docker-compose --version </code>
 
 ![image](https://github.com/user-attachments/assets/f2e24714-b0a6-478d-b346-d41a6ef7d588)
+
+11. Клонируем удалённый репозиторий по ссылке, командой <code> git clone https://github.com/skl256/grafana_stack_for_docker.git </code>
+
+![image](https://github.com/user-attachments/assets/4c579fc1-7ec5-4417-96ee-aa2b0d10d441)
+
+
+12. Переходим в папку **grafana_stack_for_docker** и прописываем команду <code> sudo mkdir -p /mnt/common_volume/swarm/grafana/config </code>
+
+![image](https://github.com/user-attachments/assets/b41a5d6e-be82-49a2-9664-f6a35db9ab85)
+
+13. Команда <code> sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data} создает несколько директорий (папок) внутри указанного пути.
+ </code> создаёт структуру каталогов для Grafana 
+
+ ![изображение (3)](https://github.com/user-attachments/assets/6993c152-92e7-4551-b13c-9989c6d1ebc0)
+
+ 14. Права на файлы будут не только у root но и обычного потзователя <code> sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana} <code> 
+
+![image](https://github.com/user-attachments/assets/fce7dba6-5102-4b75-bfcd-d8105b45679d)
+
+15. <code> touch /mnt/common_volume/grafana/grafana-config/grafana.ini  </code> если файлgrapani есть то он слегка обновиться, если нет то он создастся по новой
+
+![изображение (4)](https://github.com/user-attachments/assets/1f89e7f4-717f-4ef4-a247-9e5e0c079c71)
+
+16. Копируес все файлы из grafana_stack_for_docker попути  <code> cp config/* /mnt/common_volume/swarm/grafana/config/  </code>
+
+
+
+
 
 
 
