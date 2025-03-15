@@ -127,17 +127,13 @@ be reported.
 ![image](https://github.com/user-attachments/assets/2055ef14-7b00-458f-abfe-110361a9c38c)
 
 20. <code> sudo docker compose up -d </code> запускает в фонойвом режиме 
-
 ![image](https://github.com/user-attachments/assets/f4961eeb-3a32-4016-a005-6e2c9f8e4c92)
 
-
 21. <code> sudo docker compose stop </code> останавливает без удаления контейнеров
-
 ![image](https://github.com/user-attachments/assets/b113db53-861f-4137-9fbf-1a32bc78fc36)
 
     
 23. <code> sudo docker compose down </code> для остановки удаляет контейнеры
-
 ![image](https://github.com/user-attachments/assets/94f722a1-5b6e-4598-94ec-ddf8d080ac0f)
 
 24. <code> sudo docker compose ps </code> отображает текущее состояние контейнеров
