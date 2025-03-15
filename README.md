@@ -57,4 +57,10 @@ be reported.
 
 ![image](https://github.com/user-attachments/assets/6c347c14-8ee4-4a21-9828-825f13f3fe46)
 
+4. Устанавливаем Docker командой <code> sudo yum install docker-ce docker-ce-cli containerd.io </code>  
+
+![image](https://github.com/user-attachments/assets/b200fafa-29be-4ac2-93bd-b3cdc38e2f57)
+
+
+
 
