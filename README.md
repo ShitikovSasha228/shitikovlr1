@@ -66,17 +66,29 @@ be reported.
   ![изображение (2)](https://github.com/user-attachments/assets/9bb61a28-d438-46c4-99c7-bf08235ee38e)
 
 
-Командой <code> COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4) </code> получаем последнию весрию докера  
+6. Командой <code> COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4) </code> получаем последнию весрию докера  
 
 ![image](https://github.com/user-attachments/assets/796a9c68-5f58-45a7-8f15-8ae6714d5ee6)
 
-Командой <code> sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose </code> загружаем Docker
+7. Командой <code> sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose </code> загружаем Docker
 
 ![image](https://github.com/user-attachments/assets/b21a17a4-92d8-4b9b-871e-10afcaaef959)
 
-Делаем докер исполняемым <code> sudo chmod +x /usr/bin/docker-compose </code>
+8. Делаем докер исполняемым <code> sudo chmod +x /usr/bin/docker-compose </code>
 
 ![image](https://github.com/user-attachments/assets/70d0b4eb-04a3-44b0-8228-7d128f83b61f)
+
+Проверяем стал ли он исполняемым 
+
+![image](https://github.com/user-attachments/assets/2844f8da-ab40-4224-9544-5ffe3c2a2a8a)
+
+Успешно
+
+Проверяем какая версия установилась 
+
+![image](https://github.com/user-attachments/assets/f2e24714-b0a6-478d-b346-d41a6ef7d588)
+
+
 
 
 
