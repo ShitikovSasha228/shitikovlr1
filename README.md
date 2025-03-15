@@ -112,11 +112,39 @@ be reported.
 
 16. Копируес все файлы из grafana_stack_for_docker попути  <code> cp config/* /mnt/common_volume/swarm/grafana/config/  </code>
 
+![изображение (5)](https://github.com/user-attachments/assets/4715bebc-3127-4232-a8b0-c7dc87f41318)
+
+17. Переменовываем файл grafana.yaml на docker-compose.yaml <code> mv grafana.yaml docker-compose.yaml </code>
+
+![image](https://github.com/user-attachments/assets/43baf602-faf5-4b81-a339-369450ce79d2)
+
+18. Запускаем докер <code> sudo docker compose up -d </code>
+
+![image](https://github.com/user-attachments/assets/3d642c34-8403-42d2-a1b9-73a6f9f8badc)
+
+19. Открываем файл docker-compose.yaml и редактируем его командой <code> sudo vi docker-compose.yaml </code>
+
+![image](https://github.com/user-attachments/assets/2055ef14-7b00-458f-abfe-110361a9c38c)
+
+20. <code> sudo docker compose up -d </code> запускает в фонойвом режиме 
+
+![image](https://github.com/user-attachments/assets/f4961eeb-3a32-4016-a005-6e2c9f8e4c92)
 
 
+21. <code> sudo docker compose stop </code> останавливает без удаления контейнеров
 
+![image](https://github.com/user-attachments/assets/b113db53-861f-4137-9fbf-1a32bc78fc36)
 
+    
+23. <code> sudo docker compose down </code> для остановки удаляет контейнеры
 
+![image](https://github.com/user-attachments/assets/94f722a1-5b6e-4598-94ec-ddf8d080ac0f)
+
+24. <code> sudo docker compose ps </code> отображает текущее состояние контейнеров
+
+![image](https://github.com/user-attachments/assets/c9b26f9b-e261-4f75-ac49-8a8ab0bbf6c4)
+
+25. 
 
 
 
