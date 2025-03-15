@@ -184,7 +184,11 @@ be reported.
 ![image](https://github.com/user-attachments/assets/2146e185-4c9f-4d30-87ce-4c5f8d92728c)
 
 
+<h1> Если не выводит информацию на DashBoard </h1>
 
+1) Проверьте файлы docker-compose.yaml и prometheus.yaml, правильно ли они лежат и их содержимое. 
+2) На сайте Grapha удалите все DashBoard и создайте по новой.  
+Примечание: Если вы начнете работать с файлами docker-compose.yaml и prometheus.yaml то выключите докер, или просто перезагрузите VM. 
 
 
 
