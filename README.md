@@ -189,7 +189,7 @@ be reported.
 1) Проверьте файлы docker-compose.yaml и prometheus.yaml, правильно ли они лежат и их содержимое. 
 2) На сайте Grapha удалите все DashBoard и создайте по новой.  
    
-Примечание: Если вы начнете работать с файлами docker-compose.yaml и prometheus.yaml то выключите докер, или просто перезагрузите VM. 
+Примечание: Если вы начнете работать с файлами docker-compose.yaml или prometheus.yaml то выключите докер, или просто перезагрузите VM. 
 
 
 
