@@ -196,12 +196,40 @@ be reported.
 Примечание: Если вы начнете работать с файлами docker-compose.yaml или prometheus.yaml то выключите докер, или просто перезагрузите VM. 
 
 
+<h1>VictoriaMetrics</h1>  
+Создание VictoriaMetrics  
 
+![image](https://github.com/user-attachments/assets/815de5a8-9adb-4868-810d-9e8d96440cd9)  
 
+![image](https://github.com/user-attachments/assets/ffbc128e-db88-46c6-a588-e65df4c3ba87)  
 
+![image](https://github.com/user-attachments/assets/87ea607f-988e-46dc-a207-073c1443520f)  
 
+Прописываем команду  
+echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus  
 
+![image](https://github.com/user-attachments/assets/4000c25b-fbf5-4b49-b697-d8d6237134f7)  
 
+Переходим по айпи
 
+http://localhost:8428/api/v1/query  
+
+![image](https://github.com/user-attachments/assets/9d89c299-7243-4971-a8da-57515ee146d8)  
+
+Затем по этому  
+
+![image](https://github.com/user-attachments/assets/a04d0dcc-4922-4593-86ae-f5de30701c38)  
+
+Выбираем vmui и пишем light_metric1  
+
+![image](https://github.com/user-attachments/assets/b5faf288-8ef8-40ae-849e-e946991ace52)  
+
+![image](https://github.com/user-attachments/assets/9ef7a459-5a35-4b1b-9ba1-5df2d8bab430)  
+
+После чего переходим в DashBoard и вводим light_metric1  
+
+![image](https://github.com/user-attachments/assets/cc386ab2-dd37-4255-bcb7-3b7b255b468e)  
+
+Готово  
 
 
